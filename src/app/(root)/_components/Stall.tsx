@@ -3,7 +3,7 @@ import React from 'react'
 
 const Stall = () => {
     return (
-        <div className='relative h-[70vh] w-[50vw] border-t-[10px] border-l-[10px] border-r-[10px] border-white bg-pink-300'>
+        <div className='relative min-h-screen w-full bg-pink-300'>
 
             <div className='flex flex-col w-full items-center'>
                 <div className=' w-[50vh] h-8 flex justify-between'>
@@ -27,9 +27,9 @@ const Stall = () => {
                 <Image src={"/avatar.png"} alt='erv' height={220} width={230} />
             </div>
 
-            <div className='relative inset-x-[59.8%] inset-y-[24%] h-[25vh] w-[40vh] overflow-hidden'>
+            <div className='absolute bottom-0 right-0 h-[25vh] w-[40vh] overflow-hidden'>
     {/* Table Image as background */}
-    <div className='absolute  bottom-[-50px] right-[-15px] h-[50vh] w-[20vw] '>
+    <div className='absolute  bottom-0 right-[-15px] h-[50vh] w-[20vw] '>
         <Image 
             src={"/table.png"} 
             alt='Table' 
