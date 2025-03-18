@@ -2,7 +2,7 @@ import React from 'react'
 import Stall from './_components/Stall'
 const RootPage = () => {
   return (
-    <div className='relative bg-yellow-400 w-screen h-dvh flex justify-center items-center'>
+    <div className=' bg-yellow-400  text-white w-full h-screen overflow-y-hidden'>
       <Stall />
     </div>
   )
