@@ -1,7 +1,7 @@
-import StallDemo from './_components/StallDemo'
+import StallDemo from './_components/Stall'
 const RootPage = () => {
   return (
-    <div className=' bg-yellow-400  text-white w-full h-screen overflow-y-hidden'>
+    <div className=' bg-yellow-300  text-white w-full h-screen overflow-y-hidden'>
       <StallDemo />
     </div>
   )
