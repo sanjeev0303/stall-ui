@@ -1,5 +1,3 @@
-import React from 'react'
-import Stall from './_components/Stall'
 import StallDemo from './_components/StallDemo'
 const RootPage = () => {
   return (
